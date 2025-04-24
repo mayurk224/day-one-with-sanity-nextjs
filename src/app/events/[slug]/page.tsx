@@ -72,7 +72,7 @@ export default async function EventPage({
         <div className="flex flex-col justify-center space-y-4">
           <div className="space-y-4">
             {eventType ? (
-              <div className="inline-block rounded-lg bg-gray-100 px-3 py-1 text-sm dark:bg-gray-800 capitalize">
+              <div className="inline-block rounded-lg bg-gray-300 px-3 py-1 text-sm capitalize">
                 {eventType.replace("-", " ")}
               </div>
             ) : null}
